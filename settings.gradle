@@ -1,0 +1,5 @@
+rootProject.name = 'rpc'
+include 'rpc-api'
+include 'rpc-provider'
+include 'rpc-consumer'
+
