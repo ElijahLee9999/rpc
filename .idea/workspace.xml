@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b26e8d5-2dab-4388-b691-3c307d2bfe6e" name="Default Changelist" comment="" />
+    <list default="true" id="9b26e8d5-2dab-4388-b691-3c307d2bfe6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-api/src/main/java/org/example/rpc/api/RpcModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/org/example/rpc/consumer/ProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/org/example/rpc/consumer/RpcConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/ClassRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/rpc-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/build/classes/java/main/org/example/rpc/api/IHelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/build/classes/java/main/org/example/rpc/api/IHelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/build/libs/rpc-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/build/libs/rpc-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/build/libs/rpc-consumer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/src/main/java/org/example/rpc/consumer/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/main/java/org/example/rpc/consumer/InvokeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/build/classes/java/main/org/example/rpc/provider/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/build/classes/java/main/org/example/rpc/provider/HelloServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/build/libs/rpc-provider-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/RequireHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/RequireHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/RpcProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/java/org/example/rpc/provider/RpcProviderApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +55,12 @@
         <task path="$PROJECT_DIR$/rpc-api">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/rpc-consumer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/rpc-provider">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -32,6 +72,19 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rpc" type="f1a62948:ProjectNode" />
                 <item name="rpc-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rpc" type="f1a62948:ProjectNode" />
+                <item name="rpc-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rpc" type="f1a62948:ProjectNode" />
+                <item name="rpc-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -48,6 +101,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -57,6 +113,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dKpgsQYFWN0xXu2btnHpV6qsDR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,6 +121,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
@@ -75,29 +133,36 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.rpc:rpc-api [build]">
-    <configuration name="rpc [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.RpcConsumerApplication">
+    <configuration name="RpcConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.rpc.consumer.RpcConsumerApplication" />
+      <module name="rpc.rpc-consumer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.rpc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.rpc.provider.RpcProviderApplication" />
+      <module name="rpc.rpc-provider.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.rpc.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="rpc:rpc-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -118,10 +183,51 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="rpc:rpc-consumer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rpc-consumer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="rpc:rpc-provider [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rpc-provider" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RpcConsumerApplication" />
         <item itemvalue="Gradle.rpc:rpc-api [build]" />
-        <item itemvalue="Gradle.rpc [build]" />
+        <item itemvalue="Application.RpcProviderApplication" />
+        <item itemvalue="Gradle.rpc:rpc-provider [clean]" />
+        <item itemvalue="Gradle.rpc:rpc-consumer [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +243,9 @@
       <updated>1592183752928</updated>
       <workItem from="1592183755874" duration="2275000" />
       <workItem from="1592289307262" duration="5178000" />
+      <workItem from="1592358147422" duration="15010000" />
+      <workItem from="1592379211889" duration="82000" />
+      <workItem from="1592379870834" duration="3760000" />
     </task>
     <servers />
   </component>
@@ -144,30 +253,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592292793594">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592378537718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592292793594" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592305986616">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592378537718" />
+    <state width="458" height="466" key="DebuggerActiveHint" timestamp="1592384301431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592305986616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592305986616">
+    <state width="458" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1592384301431" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1592384408836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592305986616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592305986616">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1592384408836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592305986616" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592305986616">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1592384408836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592305986616" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1592290025439">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1592384408836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592290025439" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1592384408837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408837" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1592384408836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1592384408836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1592384408836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592384408836" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1592379091858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592379091858" />
     <state x="335" y="120" key="new project wizard" timestamp="1592184019187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

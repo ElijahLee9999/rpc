@@ -1,10 +1,13 @@
 package org.example.rpc.provider;
 
 import org.example.rpc.api.Hello;
+import org.example.rpc.api.RpcModel;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.lang.reflect.Method;
 
 /**
@@ -15,22 +18,24 @@ public class RequireHandler implements Runnable {
     ObjectInputStream inputStream;
     ObjectOutputStream outputStream;
 
-    public RequireHandler (ObjectInputStream inputStream, ObjectOutputStream outputStream) {
-        this.inputStream = inputStream;
-        this.outputStream = outputStream;
+    public RequireHandler(InputStream inputStream, OutputStream outputStream) throws IOException {
+        this.inputStream = new ObjectInputStream(inputStream);
+        this.outputStream = new ObjectOutputStream(outputStream);
     }
 
     @Override
     public void run() {
         try {
-            String clazzName = inputStream.readUTF();
-            String methodName = inputStream.readUTF();
-            Class[] paramTypes = (Class[]) inputStream.readObject();
-            Object[] args4Method = (Object[]) inputStream.readObject();
-            Class clazz = null;
+            System.out.println(Thread.currentThread().getName());
+            RpcModel rpcModel = (RpcModel) inputStream.readObject();
+            String clazzName = rpcModel.getClazzName();
+            String methodName = rpcModel.getMethodName();
+            Class<?>[] paramTypes = rpcModel.getParamTypes();
+            Object[] args4Method = rpcModel.getArgs4Method();
             //2.服务注册，找到具体的实现类
-            if (clazzName.equals(Hello.class.getName())){
-                clazz = Hello.class;
+            Class clazz = ClassRegister.getClass(clazzName);
+            if (null == clazz) {
+                throw new ClassNotFoundException(clazzName + " not found");
             }
             //3.执行UserServiceImpl的方法
             Method method = clazz.getMethod(methodName,paramTypes);
@@ -39,10 +44,6 @@ public class RequireHandler implements Runnable {
             //4.返回结果给客户端
             outputStream.writeObject(invoke);
             outputStream.flush();
-
-            //5.关闭连接
-            outputStream.close();
-            inputStream.close();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
